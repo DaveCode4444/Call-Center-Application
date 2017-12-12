@@ -2,13 +2,8 @@ package ctci.ood.employees;
 
 import ctci.ood.callhandling.CallCenter;
 
-/**
- * This is an abstract Employee class
- * @author Devang Sawant
- *
- */
-
 public abstract class Employee {
+	
 	
 	//each employee has a unique id
 	private int id;
@@ -82,7 +77,7 @@ public abstract class Employee {
 	/**
 	 * this method allows an employee to escalate call to higher level if he is busy
 	 */
-	
+	//public abstract void escalate();
 	
 	
 

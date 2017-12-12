@@ -8,13 +8,6 @@ import ctci.ood.employees.Manager;
 import ctci.ood.employees.Respondent;
 import ctci.ood.employees.Type;
 
-/**
- * This class is the entry point to the application.
- * It creates a CallCenter, Employees and Calls
- * 
- * @author Devang Sawant
- */
-
 public class CallCenterApplication {
 	
 	public static void main(String[] args) {

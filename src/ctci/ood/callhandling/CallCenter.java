@@ -5,15 +5,6 @@ import java.util.List;
 import ctci.ood.employees.Employee;
 import ctci.ood.employees.Type;
 
-/**
- * This is the CallCenter class.
- * This class has a list of employees which it can add to
- * This class dispatches call to appropriate employee
- * 
- * @author Devang Sawant
- *
- */
-
 public class CallCenter {
 	
 	//list of all employees that work in this call center
