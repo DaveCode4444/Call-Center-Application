@@ -1,8 +1,14 @@
 package ctci.ood.employees;
 
 import java.util.List;
-
 import ctci.ood.callhandling.CallCenter;
+
+/**
+ * This is Respondent class IS-A Employee
+ * This class can accept calls and escalate calls
+ * @author Devang Sawant
+ *
+ */
 
 public class Respondent extends Employee {
 	
@@ -10,7 +16,10 @@ public class Respondent extends Employee {
 		super(id, type, isAFK, isFree, callCenter);
 		// TODO Auto-generated constructor stub
 	}
-
+	
+	/**
+	 * An Employee can accept calls via this method
+	 */
 	@Override
 	public void acceptCall() {
 		if(isAFK()){
